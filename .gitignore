@@ -20,3 +20,6 @@ venv/
 
 # SDD progress / agent scratch
 .superpowers/
+
+# Local reverse-engineering notes
+research/
