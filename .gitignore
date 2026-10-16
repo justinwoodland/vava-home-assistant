@@ -1,0 +1,22 @@
+# Local design / planning docs (not for the published integration repo)
+docs/superpowers/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# HA / editor
+.storage/
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# SDD progress / agent scratch
+.superpowers/
