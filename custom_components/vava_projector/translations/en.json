@@ -1,0 +1,53 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "VAVA Projector",
+        "description": "How do you want to add your projector?",
+        "menu_options": {
+          "discover": "Discover on the network",
+          "manual": "Enter IP address manually"
+        }
+      },
+      "manual": {
+        "title": "VAVA Projector",
+        "data": {
+          "host": "Host",
+          "http_port": "HTTP port",
+          "tcp_port": "Control (TCP) port",
+          "name": "Name"
+        }
+      },
+      "discover": {
+        "title": "Discovered projectors",
+        "data": {
+          "device": "Projector"
+        }
+      },
+      "discover_retry": {
+        "title": "No projectors found",
+        "description": "No projectors replied. Make sure it is powered on and on the same network, then submit to go back."
+      }
+    },
+    "error": {
+      "no_devices_found": "No projectors were found on the network."
+    },
+    "abort": {
+      "already_configured": "This projector is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "VAVA Projector options",
+        "data": {
+          "poll_interval": "Poll interval (seconds)",
+          "shutdown_grace": "Shutdown grace period (seconds)"
+        },
+        "data_description": {
+          "shutdown_grace": "How long the projector is shown as on after a power-off command, while it shuts down."
+        }
+      }
+    }
+  }
+}
