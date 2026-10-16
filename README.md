@@ -31,14 +31,19 @@ Copy `custom_components/vava_projector` into your Home Assistant `config/custom_
 
 ## Configuration
 
-Setup is through the UI. The integration can discover projectors on your LAN or you can enter the IP address manually.
+Setup is through the UI. The integration can discover projectors on your LAN or you can enter the IP address manually. At setup you can also set the HTTP and TCP ports (defaults below).
 
-Options:
+**Setup (add integration):**
 
-| Option | Default | Description |
+| Field | Default | Description |
 |---|---|---|
 | HTTP port | 8000 | eShare HTTP API port |
 | TCP port | 8121 | eShare control port (key events) |
+
+**Options (configure existing entry):**
+
+| Option | Default | Description |
+|---|---|---|
 | Poll interval | 10 s | How often to check the projector |
 | Shutdown grace | 15 s | How long to wait after power-off before reporting `off` |
 
