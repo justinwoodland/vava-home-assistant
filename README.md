@@ -17,13 +17,25 @@ Local control of the original **VAVA 4K projector (VA-LT002)** (eShare firmware)
 - `media_player`: power off, volume up / down, availability (on/off).
 - `remote`: send navigation keys (`UP`, `DOWN`, `LEFT`, `RIGHT`, `OK`, `BACK`, `HOME`, `MENU`, `VOLUME_UP`, `VOLUME_DOWN`, `POWER`).
 
-## Installation (HACS custom repository)
+## Installation (HACS)
+
+### Add via My Home Assistant
+
+If you already have [HACS](https://hacs.xyz/) installed, click the badge to open this repository in HACS on your instance:
+
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=justinwoodland&repository=vava-home-assistant&category=integration)
+
+Then install **VAVA Projector**, restart Home Assistant, and add the integration:
+
+[![Open your Home Assistant instance and start setting up a new integration.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=vava_projector)
+
+### Add via HACS UI
 
 1. In Home Assistant, open **HACS**.
 2. Menu (⋮) → **Custom repositories**.
-3. Add this repository's URL, with category **Integration**.
-4. Search for **VAVA Projector** in HACS, install it, and restart Home Assistant.
-5. Go to **Settings → Devices & services → Add integration → VAVA Projector**.
+3. Add `https://github.com/justinwoodland/vava-home-assistant`, category **Integration**.
+4. Search for **VAVA Projector**, install it, and restart Home Assistant.
+5. Go to **Settings → Devices & services → Add integration → VAVA Projector** (or use the config-flow badge above).
 
 ### Manual install
 
